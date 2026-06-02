@@ -1,0 +1,103 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #000;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #00eaff;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn, .btn-outline {
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn {
+    background: #00eaff;
+    color: #000;
+    box-shadow: 0 0 10px #00eaff;
+}
+
+.btn-outline {
+    border: 2px solid #00eaff;
+    color: #00eaff;
+}
+
+/* Blocks */
+.block {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.block h2 {
+    color: #00eaff;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #00eaff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #00eaff33;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: #00eaff;
+    margin: 10px 0;
+}
+
+/* Contact */
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 40px;
+}
