@@ -101,3 +101,13 @@ footer {
     background: #111;
     margin-top: 40px;
 }
+.location {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 14px;
+    border: 1px solid #00eaff;
+    border-radius: 4px;
+    color: #00eaff;
+    font-weight: bold;
+    box-shadow: 0 0 10px #00eaff55;
+}
